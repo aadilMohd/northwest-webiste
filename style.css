@@ -1,0 +1,133 @@
+
+ html{
+    background-color:rgb(19, 26, 34) ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.head {
+    background-color:rgb(19, 26, 34);
+    padding: 0;
+    align-self: auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.tilte a:hover{
+    text-decoration:overline ;
+    
+}
+.title {
+    font-size: 85px;
+    padding-left: 50px; 
+    
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul{
+    flex-wrap: wrap;
+    text-align: end;
+}
+
+
+.int{
+    padding: 100px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.foot{
+    text-align: center;
+    background-color: black;
+    color: blanchedalmond;
+}
+li{
+    display: inline-block;
+    color: white;
+    margin-right: 20px;
+ }
+li a{
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+    font-size: 5mm;
+}
+li a:hover{
+    text-decoration: underline;
+} 
+.alert {
+    background-color:wheat;
+    padding: 2%;
+    text-align: center;
+    border: thin black 1px;
+   
+}
+.alert a{
+    text-decoration: none;
+}
+.alert a:hover{
+    text-decoration: underline;
+}
+body{
+    background-color: white;
+}
+.contactd{
+    background-color: white;
+    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+
+}
+map{
+    padding : 20px;
+    padding-top: 20px;
+    border: thin black;
+}
+.c-1{
+    padding: 20px;
+}
+div p{
+    padding-left: 30px;
+  
+}
+.juss{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+.form {
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+input[type=text],input[type=number],input[type=email] {
+    width: 100%;
+  }
+input[type=submit] {
+    background-color:grey;
+    
+    color: white;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: medium;
+    
+  }
+  label, input {
+    display: block;
+}
+
+label {
+    margin-bottom: 20px;
+}
+div a {
+    text-decoration: none;
+}
+.int{
+    padding-top: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+} 
